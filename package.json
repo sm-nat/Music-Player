@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "@madzadev/audio-player": "^1.1.11",
-    "preact": "^10.16.0"
+    "preact": "^10.16.0",
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
