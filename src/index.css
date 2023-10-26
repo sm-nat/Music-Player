@@ -2,47 +2,31 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
-  color: rgba(194, 97, 233, 0.87);
-  background-color: #d52b2b;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
 
 .music-container {
-  background-color: #9776d3;
+  background-color: #8867c6;
   border-radius: 20%;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
 }
-
-
-
-
 h1 {
-  font-size: 24px;
+  font-size: 33px;
   text-align: center;
-  font-size: 24px;
   margin: 20px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-
 :root {
   color: #5ae8b8;
   background-color: #5b1263b7;
 }
-
 audio {
   width: 100%;
   margin: 20px 0;
 }
-
 button {
   background-color: #5adcae;
   color: white;
@@ -53,51 +37,47 @@ button {
   margin: 5px;
   font-size: 16px;
   transition: background-color 0.3s;
-}
+  border: 1px solid #ccc;
 
+}
 button:hover {
   background-color: #8f38d1;
 }
-
 audio {
-  height: 200px;
-  width: 300px;
+  height: 50px;
+  width: 350px;
   background: #5ae8b8;
   margin: 20px 0;
   border-radius: 20%;
-
-
 }
-
 audio:hover {
   transform: scale(1.1);
   filter: drop-shadow(2px 3px 3px #333);
 }
-
 ul {
-  list-style: none;
+  list-style-type: "👉";
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 li {
   margin: 10px 0;
   padding: 5px;
   border: 1px solid #ccc;
   background-color: #50c29e;
-  font-size: 16px;
-  font-family: 'Arial', sans-serif;
-  color: #333;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #e4dada;
   border-radius: 30px;
   width: 200px;
   text-align: center;
-
 }
-
 li:hover {
-  background-color: #e6e6e6;
+  background-color: #8f38d1;
   cursor: pointer;
+}
+.firma{
+  padding-top: 20px;
 }

@@ -34,7 +34,7 @@ function MusicPlayer() {
     useEffect(() => {
         // Reproducir la canción actual cuando cambie currentSongIndex
         if (songs[currentSongIndex] && isPlaying) {
-            audioRef.current.src = 'https://playground.4geeks.com/apis/fake/sound/'+ songs[currentSongIndex].url ;
+            audioRef.current.src = 'https://playground.4geeks.com/apis/fake/sound/' + songs[currentSongIndex].url;
             audioRef.current.play();
         }
     }, [currentSongIndex, isPlaying]);
@@ -67,11 +67,11 @@ function MusicPlayer() {
                 ref={audioRef} controls src={songs[currentSongIndex] ? 'https://playground.4geeks.com/apis/fake/sound/' + songs[currentSongIndex].url : ''} type="audio/mpeg" >
             </audio>
             <div>
-                <button onClick={playPreviousSong}>Previous</button>
+                <button onClick={playPreviousSong}>≪Previous</button>
                 <button onClick={playPause}>
                     {isPlaying ? 'Pause' : 'Play'}
                 </button>
-                <button onClick={playNextSong}>Next</button>
+                <button onClick={playNextSong}>Next≫</button>
             </div>
 
             <ul>
@@ -82,6 +82,13 @@ function MusicPlayer() {
                     </li>
                 ))}
             </ul>
+            <div class="firma">
+                Made with ❤️ by 
+                <a href="https://github.com/sm-nat" target="_blank" class="enlace-natalia">
+                    Natalia Silva Medina
+                </a>
+            </div>
+
 
 
         </div>
